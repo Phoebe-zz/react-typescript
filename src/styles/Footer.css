@@ -1,0 +1,37 @@
+.foot {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 110px;
+  background-color: white;
+}
+.left,
+.right {
+  float: left;
+  width: 110px;
+  left: 110px;
+}
+.left {
+  margin-left: 170px;
+}
+.right {
+  margin-left: 211px;
+}
+
+.word {
+  font-size: 20px;
+  text-align: center;
+  width: 68px;
+  height: 20px;
+  margin: 0px 21px 10px 21px;
+}
+.left .word {
+  color: #42d681;
+}
+.left img,
+.right img {
+  margin: 0px 21px 1px 21px;
+  width: 68px;
+  height: 68px;
+}
