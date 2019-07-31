@@ -1,6 +1,21 @@
 .Item {
   width: 100%;
   height: 240px;
+  button {
+    width: 104px;
+    height: 48px;
+    background: rgba(66, 214, 129, 1);
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    left: 53px;
+    top: 46px;
+    font-size: 24px;
+    font-family: PingFangSC-Medium;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 20px;
+  }
 }
 img {
   width: 180px;
@@ -48,7 +63,6 @@ img {
   margin-top: 15px;
   margin-left: 10px;
 }
-
 .experiment {
   position: relative;
   width: 104px;
@@ -88,21 +102,6 @@ img {
   position: relative;
   left: 506px;
   bottom: 48px;
-}
-.Item button {
-  width: 104px;
-  height: 48px;
-  background: rgba(66, 214, 129, 1);
-  border-radius: 30px;
-  border: none;
-  position: relative;
-  left: 53px;
-  top: 46px;
-  font-size: 24px;
-  font-family: PingFangSC-Medium;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 1);
-  line-height: 20px;
 }
 .buyticket {
   width: 100px;

@@ -1,6 +1,5 @@
 import * as React from "react";
 import { Carousel, WingBlank } from "antd-mobile";
-import "../styles/header.css";
 
 class Header extends React.Component {
   state = {

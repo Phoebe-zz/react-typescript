@@ -1,13 +1,20 @@
 import * as React from "react";
 import Img1 from "../assets/111.jpg";
 import Img2 from "../assets/222.jpg";
-import "../styles/Itemsty.css";
+import "../styles/Itemsty.scss";
+import {observer} from 'mobx-react'
 
-interface iprops {
-  item: any;
+interface itType {
+  item: {
+    id: number;
+    tem: string;
+    limi: string;
+    tui: string;
+    price: number;
+  };
 }
-
-class Item extends React.Component<iprops> {
+@observer
+class Item extends React.Component<itType> {
   public render() {
     return (
       <div className="Item">

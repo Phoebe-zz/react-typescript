@@ -1,8 +1,11 @@
-import * as React from "react";
-import Item from './Item';
-import "../styles/Itemsty.css";
+import React from "react";
+import Item from "./Item";
+import "../styles/Itemsty.scss";
+import { observable } from "mobx";
+import {observer} from 'mobx-react'
 
 
+@observer
 class itemList extends React.Component {
   public render() {
     return (
@@ -19,21 +22,21 @@ class itemList extends React.Component {
     );
   }
 }
-const items = [
+
+let items = observable([
   {
-    id: "1",
+    id: 1,
     tem: "成人票",
     limi: "23:30之前可定明日",
     tui: "随时退",
-    price: "120",
+    price: 120,
   },
   {
-    id: "2",
+    id: 2,
     tem: "学生票",
     limi: "23:30之前可定明日",
     tui: "随时退",
-    price: "120",
+    price: 120,
   },
-];
-
+]);
 export default itemList;

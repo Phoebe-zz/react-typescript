@@ -14,20 +14,19 @@
 }
 .left {
   margin-left: 170px;
+  .word {
+    color: #42d681;
+  }
 }
 .right {
   margin-left: 211px;
 }
-
 .word {
   font-size: 20px;
   text-align: center;
   width: 68px;
   height: 20px;
   margin: 0px 21px 10px 21px;
-}
-.left .word {
-  color: #42d681;
 }
 .left img,
 .right img {

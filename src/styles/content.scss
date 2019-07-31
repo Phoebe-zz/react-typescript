@@ -12,16 +12,18 @@ li {
 }
 .detail {
   height: 392px;
+  img {
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+  }
 }
-.detail img {
-  width: 24px;
-  height: 24px;
-  margin: 0px;
-}
-.timede img {
-  position: relative;
-  top: 70px;
-  left: 40px;
+.timede {
+  img {
+    position: relative;
+    top: 70px;
+    left: 40px;
+  }
 }
 .title {
   width: 670px;
@@ -88,18 +90,18 @@ li {
   top: 57px;
   border: 1px dashed gray;
   margin: 48px;
-}
-.but button {
-  border: none;
-  background: white;
-  width: 70px;
-  margin-left: 1px;
-}
-.but button img {
-  width: 55px;
-  height: 48px;
-  position: relative;
-  top: 16px;
+  button {
+    border: none;
+    background: white;
+    width: 70px;
+    margin-left: 1px;
+    img {
+      width: 55px;
+      height: 48px;
+      position: relative;
+      top: 16px;
+    }
+  }
 }
 .butt {
   width: 108px;

@@ -1,13 +1,11 @@
 import * as React from "react";
 import ItemList from "./itemList";
-import "../styles/content.css";
+import "../styles/content.scss";
 import Img4 from "../assets/购票2.png";
 import Img5 from "../assets/地址.png";
 import Img6 from "../assets/导航.png";
-import Img7 from "../assets/景点介绍.png";
-import Img8 from "../assets/热门景点.png";
-import Img9 from "../assets/特产商城.png";
-import Img10 from "../assets/购票须知.png";
+import Btn from "./Btn";
+import Messages from "../component/Messages";
 
 class Content extends React.Component {
   public render() {
@@ -29,36 +27,15 @@ class Content extends React.Component {
               </div>
             </div>
             <div className="extral">
-              <div className="but">
-                <button>
-                  <img src={Img7} alt="" />
-                </button>
+              <Btn />
+              <div className="message">
+                <div className="adjust" />
+                <div className="butt">
+                  <Messages />
+                </div>
               </div>
-              <div className="but">
-                <button>
-                  <img src={Img8} alt="" />
-                </button>
-              </div>
-              <div className="but">
-                <button>
-                  <img src={Img9} alt="" />
-                </button>
-              </div>
-              <div className="but">
-                <button>
-                  <img src={Img10} alt="" />
-                </button>
-              </div>
-            </div>
-            <div className="message">
-              <div className="adjust" />
-              <div className="butt">景区介绍</div>
-              <div className="butt">热门景点</div>
-              <div className="butt">购票须知</div>
-              <div className="butt">特产购物</div>
             </div>
           </div>
-
           <ItemList />
           <div className="filler"> </div>
         </div>

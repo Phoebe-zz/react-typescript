@@ -1,5 +1,5 @@
 import * as React from "react";
-import "../styles/Footer.css";
+import "../styles/Footer.scss";
 
 class Header extends React.Component {
   public render() {
